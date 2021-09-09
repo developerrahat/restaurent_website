@@ -1,0 +1,385 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Abril Fatface', cursive;
+}
+body,p,span,a{
+    font-family: 'Rubik', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.navbar-brand img {
+	width: 200px;
+	height: auto;
+}
+.my-header-menu{
+    margin-right: 50px;
+}
+.my-header-menu li{
+
+}
+.my-header-menu li a {
+	display: block;
+	color: #1d1108;
+	padding: 20px 17px;
+	text-decoration: none;
+    transition: .5s;
+}
+.my-header-menu li a:hover{
+    color: #fd7e14;
+    letter-spacing: 1px;
+    
+}
+.my-header-menu li:nth-child(1) a{
+    color:#fd7e14 !important ;
+}
+
+.btn.btn-info {
+	background: #fd7e14;
+	border-color: #fd7e14;
+	padding: 12px 30px;
+	border-radius: 50px;
+}
+.btn.btn-info:hover{
+    background: #d56408;
+}
+.slider-section{
+    background: url(./img/bbq-banner-01.jpg) no-repeat center center;
+    background-size: cover;
+    padding:190px 0;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(2, 2, 29, 0.6);
+    z-index: -1;
+}
+.slider-caption h3{
+    color:#fd7e14 ;
+}
+.slider-caption h1 {
+	font-size:100px;
+}
+
+.d-style {
+	background: transparent !important;
+	border: 2px solid white !important;
+	padding: 7px 30px !important;
+	margin-left:15px;
+	/* margin-right: 10px; */
+}
+.d-style:hover{
+    border-color:#fd7e14 !important ;
+}
+
+.s-content-left .style-tea{
+    width: 55px; 
+}
+
+
+.inner-bg{
+    background: url(./img/Grill-food-banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 140px 0;
+    color: white;
+    background-attachment:fixed;
+    position: relative;
+    z-index: 2;
+
+}
+.inner-bg::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(2, 2, 29, 0.6);
+    z-index: -2;
+}
+.inner-con h2{
+    font-size: 50px;
+    color:#fd7e14 ;
+}
+.inner-con p{}
+
+.f-content h4{
+    font-size: 30px;
+    color: black;
+    line-height: 35px;
+}
+.f-content h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+
+
+.inner-bg-two{
+    background: url(./img/party-group-of-people.jpg) no-repeat center center;
+    background-size: cover;
+    padding:160px 0;
+    color: white;
+    position: relative;
+    z-index: 2;
+    background-attachment:fixed;
+
+
+}
+.inner-text p{
+   font-size: 25px;
+}
+.inner-text h1{
+    color:#fd7e14 ;
+    font-size:45px;
+}
+.inner-text h5{
+    font-size: 20px;
+}
+.inner-text img{}
+
+.inner-bg-two::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(1, 1, 17, 0.7);
+    z-index: -2;
+}
+.t-member{
+    margin-top: 40px !important;
+}
+.t-member p{
+    color: black;
+    font-size: 18px;
+}
+.t-member img{
+    width: 60px;
+    height: auto;
+}
+
+
+
+
+.footer-section{
+    background: url(./img/hotel-diner-dining\(2\).jpg) no-repeat center center;
+    padding:140px 0;
+    background-size: cover;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+.footer-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(1, 1, 17, 0.7);
+    z-index: -2;
+
+}
+.f-text h1{
+    font-size: 40px;
+    
+}
+.f-text h3{
+    font-size: 20px;
+}
+
+.social-icon ul{
+    list-style: none;
+    margin-top: 15px;
+    
+
+}
+.social-icon ul li{
+    margin: 10px 10px;
+}
+.social-icon ul li a{
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #fd7e14;
+    border-radius: 50%;
+    color: white;
+    transition: .5s;
+}
+.social-icon ul li a:hover{
+    background: white;
+    color: #fd7e14;
+}
+
+.footer-copyright{
+    background: black;
+    color: white;
+}
+.footer-copyright p{
+    margin-bottom: 0;
+}
+
+
+/*Anoter page About*/
+
+.s-bottom{
+    background: ghostwhite;
+}
+
+.sb-content h3{
+    font-size: 45px;
+}
+.f-right-img{
+    display: block;
+    position: relative;
+}
+.f-right-img::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(1, 1, 17, 0.7);
+}
+
+.inner-r-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 180px;
+    color: white;
+    text-align: center;
+}
+.inner-r-text span{
+    font-size: 40px;
+}
+
+.our-food-policy{
+    background: url(./img/Grill-food-banner\(2\).jpg) no-repeat center center;
+    padding: 160px 0;
+    background-size: cover;
+    color: white;
+    position: relative;
+    z-index: 2;
+    background-attachment:fixed;
+}
+.our-food-policy::before{
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(1, 1, 17, 0.7);
+    z-index: -2;
+}
+
+.food-content h1{
+    font-size: 45px;
+}
+
+
+.team-section {
+    background: aliceblue;
+}
+.team-right-img img{
+    width: 100px;
+}
+.team-social ul{
+    list-style: none;
+    margin-top: 15px;
+    padding-left: 0;
+    height: 60px;
+   
+}
+.team-social ul li{
+    margin: 5px 5px;
+}
+.team-social ul li:nth-child(1) a{
+    display: block;
+    height: 38px;
+    width: 38px;
+    background: rgb(2, 117, 189);
+    color: white;
+    line-height:40px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+
+}
+.team-social ul li:nth-child(2) a{
+    display: block;
+    height: 38px;
+    width: 38px;
+    background: rgb(3, 228, 220);
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+
+}
+.team-social ul li:nth-child(3) a{
+    display: block;
+    height: 38px;
+    width: 38px;
+    background: rgb(233, 4, 222);
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+
+}
+.team-social ul li:nth-child(4) a{
+    display: block;
+    height: 38px;
+    width: 38px;
+    background: rgb(169, 2, 58);
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+
+}
+
+.team-social ul li a:hover{
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    transition: .5s;
+}
+.team-left-con span{
+    font-size: 20px;
+}
+.team-left-con h4{
+    font-size: 30px;
+}
+
+/*Contact Page*/
+
+.c-items h5{
+    color:#fd7e14 ;
+}
+
+.contact-left-form {
+    margin-top: 100px;
+}
+.contact-left-form .form-control{
+    margin-bottom: 30px;
+}

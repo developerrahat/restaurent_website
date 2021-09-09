@@ -1,0 +1,99 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* slider media css */
+    .my-header-menu li a {
+        padding: 8px 5px;
+    }
+    .slider-section {
+        padding: 60px 0;
+    }
+    .slider-caption h1 {
+        font-size: 50px;
+    }
+    .slider-caption p {
+        font-size:15px !important;
+    }
+    .d-style {
+        margin-top: 10px;
+        margin-left: 0px;
+        
+    }
+    .img-food{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .ico-sm-center{
+        text-align: right;
+    }
+    .inner-bg {
+        padding: 70px 0;  
+    }
+    .inner-con h2 {
+        font-size: 42px;
+    }
+
+    .f-content{
+        text-align: center;
+    }
+    .inner-bg-two {
+        padding: 85px 0; 
+    }
+    .footer-section {
+        padding: 50px 0;
+    }
+    .btn.btn-info {
+        padding: 9px 22px;
+      
+    }
+ 
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .img-food{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .f-content{
+        text-align: center;
+    }
+    .sm-center{
+        text-align: center;
+    }
+    .t-member{
+        margin-top: 30px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* banner bottom media css */
+   .img-food{
+       margin-top: 30px;
+       text-align: center;
+   }
+
+   /* food product media css */
+   .f-content h4 {
+	font-size: 23px;
+	line-height: 30px;
+}
+
+
+
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
